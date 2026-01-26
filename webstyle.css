@@ -1,0 +1,52 @@
+.photos{
+   width: 396px;
+   height: 520.875px;
+   border-radius: 15px;
+}
+.flexcontener{
+        display: flex;
+        margin-left: 412;
+        margin-top: 538,453;
+}
+.photoss{
+   width: 57px;
+   height: 76px;
+   border-radius: 15px;
+   margin: 5px;
+}
+.ColorOption{
+   display: flex;
+   
+}
+
+.button {
+   border-radius: 13px;
+   height: 30px;
+   border: none;
+   color:rgb(0, 0, 0);
+}
+
+.darktext {
+   color:black;
+}
+
+.WhiteText {
+   color:gray;
+}
+
+.wbb { 
+   display: block;
+     margin: auto;
+      width: 50%;
+display: flex;
+     }
+
+.wbbb {
+      width: 396px;
+   height: 520.875px;
+   border-radius: 15px;
+    display: block;
+     margin: auto;
+      width: 40%;
+display: flex;
+}
