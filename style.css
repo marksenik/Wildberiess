@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-family:Roboto Mono, -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif;
 }
 
 body {
@@ -201,6 +201,7 @@ body {
 }
 
 .product-card {
+    width: 18%;
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
@@ -217,11 +218,30 @@ body {
 .product-badges {
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
     z-index: 2;
+}
+
+.badge {
+    background: linear-gradient(45deg, #ff4040, #ffc107);
+    border-radius: 12px;
+    padding: 4px 10px;
+    color: #fafafa;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px #555;
+    text-align: center;
+}
+
+.badge.new {
+      background: linear-gradient(45deg, #40ffe6, #ff07ea);
+}
+
+.badge.top {
+      background: linear-gradient(45deg, #7cff40, #0b07ff);
 }
 
 .discount {
@@ -241,7 +261,7 @@ body {
 
 .product-img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: contain;
     padding: 15px;
     background-color: #fafafa;
@@ -274,7 +294,7 @@ body {
     font-size: 0.95rem;
     color: #333;
     margin-bottom: 10px;
-    height: 40px;
+    height: 2.8rem;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
