@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'LXGWWenKaiMonoTC';
+    src: url('LXGWWenKaiMonoTC-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGWWenKaiMonoTC';
+    src: url('LXGWWenKaiMonoTC-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGWWenKaiMonoTC';
+    src: url('LXGWWenKaiMonoTC-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
